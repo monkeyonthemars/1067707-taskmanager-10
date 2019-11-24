@@ -114,14 +114,6 @@ const createSiteMenuTemplate = () => {
   </section>`;
 };
 
-const createSortingTemplate = () => {
-  return `<div class="board__filter-list">
-    <a href="#" class="board__filter">SORT BY DEFAULT</a>
-    <a href="#" class="board__filter">SORT BY DATE up</a>
-    <a href="#" class="board__filter">SORT BY DATE down</a>
-  </div>`;
-};
-
 const createTaskEditTemplate = () => {
   return `<article class="card card--edit card--yellow card--repeat">
     <form class="card__form" method="get">
